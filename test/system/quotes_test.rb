@@ -33,9 +33,9 @@ class QuotesTest < ApplicationSystemTestCase
 
   test "Showing a quote" do
     visit quotes_path
-    click @quote.name
+click_on @quote.name
 
-    assert_selector "h1", text: @suote.name
+assert_selector "h1", text: @quote.name
   end
 
   test "Updating a quote" do

@@ -3,6 +3,13 @@
   flex-wrap: wrap;
   gap: var(--space-xs);
 
+  &--auth {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
   &__group {
     flex: 1;
   }
